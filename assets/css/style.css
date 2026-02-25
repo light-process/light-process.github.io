@@ -19,7 +19,7 @@ ul {
   margin:30px;
   border:1px solid #333;
   border-radius:10px;
-  background:#efefef;
+  background:#DAB7FF;
 }
 
 @font-face {
@@ -40,7 +40,7 @@ header {
   margin: 20;
 }
 h1 {
-    background: #DAB7FF;
+    background: #eee;
 }
 
 
