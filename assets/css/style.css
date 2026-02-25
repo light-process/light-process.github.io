@@ -67,3 +67,46 @@ header {
     display: flex;
     height: calc(100vh - 60px);
 }
+
+.sidebar {
+    width: 200px;
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #a5a5a5;
+    overflow-y: hidden;
+}
+
+.sidebar:hover {
+    overflow-y: auto; 
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+    padding: 0;
+}
+
+iframe {
+    width: 95%;
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    border: none;
+}
+
+.content iframe {
+    display: block;
+    margin: 0 auto;
+    width: 80%; 
+    height: 100vh;
+    border: 2px solid #333;
+    margin-left: 2%;
+}
