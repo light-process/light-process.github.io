@@ -35,6 +35,10 @@ body {
   margin: 20;
 }
 
+header {
+  font-family: 'KH-Dot-Hibiya', 'sans-serif';
+  margin: 20;
+}
 h1 {
     background: #eee;
 }
