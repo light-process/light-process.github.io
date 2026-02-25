@@ -9,6 +9,11 @@
   transition: 0.1s;
 }
 
+ul {
+  list-style: none; /* ・を消す */
+  padding-left: 0;
+}
+
 .box {
   padding:20px;
   margin:30px;
