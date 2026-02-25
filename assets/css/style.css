@@ -19,7 +19,7 @@ ul {
   margin:30px;
   border:1px solid #333;
   border-radius:10px;
-  background:#DAB7FF;
+  background:#efefef;
 }
 
 @font-face {
@@ -61,7 +61,7 @@ a.btn-border:hover {
 }
 
 header {
-    background: #eee;
+    background: #DAB7FF;
     padding: 10px;
     text-align: center;
     font-size: 18px;
