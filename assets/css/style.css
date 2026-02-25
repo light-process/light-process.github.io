@@ -23,15 +23,15 @@ ul {
 }
 
 @font-face {
-  font-family: 'KH-Dot-Hibiya';
-  src: url('../fonts/KH-Dot-Hibiya-24.woff2') format('woff2'),
-       url('../fonts/KH-Dot-Hibiya-24.woff') format('woff');
+  font-family: 'homura-mincho';
+  src: url('../fonts/04homura-naka-mincho.woff2') format('woff2'),
+       url('../fonts/04homura-naka-mincho.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'KH-Dot-Hibiya', 'sans-serif';
+  font-family: 'homura-mincho', 'sans-serif';
   margin: 20;
 }
 
