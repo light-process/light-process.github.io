@@ -26,6 +26,4 @@ ul {
   font-family: 'homura-mincho';
   src: url('../fonts/04HomuraM-Medium.woff2') format('woff2'),
        url('../fonts/04HomuraM-Medium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
