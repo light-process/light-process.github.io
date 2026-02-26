@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex,nofollow">
   <link rel="stylesheet" href="assets/css/style.css">
-  
+
+</script>
   <title>プロセス-LIGHT-</title>
   
 </head>
@@ -17,8 +18,13 @@
    </header>
 <div class="border-bottom-1"></div><!-- これ下の枠線 -->
  <img src="assets/top1.png" alt="Top Image">
-   
-  <body>
+   var randomList = new Array(
+  "assets/top1.png",
+   assets/top2.png" );
+var num = Math.floor(Math.random() * randomList.length);
+var printHtml = '<img src=' + randomList[num] + ' alt="ランダム画像">';
+document.write(printHtml);
+  <body>  
     
   </body>
 </html>
