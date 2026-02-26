@@ -40,9 +40,12 @@ header {
   margin: 20;
 }
 h1 {
-    background: #eee;
+    background: #DAB7FF;
 }
 
+body{
+    background:#94769E
+}
 
 .border-bottom-1{
     border-bottom: solid 2px #333;
