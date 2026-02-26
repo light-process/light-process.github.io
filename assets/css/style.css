@@ -39,6 +39,7 @@ body {
 header {
   font-family: 'homura-mincho', 'sans-serif';
   margin: 20;
+  color:#000;
 }
 h1 {
     background: #DAB7FF;
