@@ -45,7 +45,9 @@ h1 {
 
 body{
     background:#3C3040;
-  style="color: #00ff00;"
+  style{
+    color: #fff;
+  }
 }
 
 .border-bottom-1{
