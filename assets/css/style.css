@@ -33,6 +33,7 @@ ul {
 body {
   font-family: 'homura-mincho', 'sans-serif';
   margin: 20;
+  color:#fff;
 }
 
 header {
@@ -45,7 +46,6 @@ h1 {
 
 body{
     background:#3C3040;
-    color:#fff;
 }
 
 .border-bottom-1{
