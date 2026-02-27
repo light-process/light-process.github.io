@@ -53,6 +53,9 @@ body{
     border-bottom: solid 2px #333;
 }
 
+.big-link {
+    font-size: 24px;
+  }
 
 a.btn-border {
   border: 2px solid #000;
