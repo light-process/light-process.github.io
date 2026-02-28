@@ -17,9 +17,9 @@ ul {
 .box {
   padding:20px;
   margin:30px;
-  border:1px solid #333;
+  border:1px solid #DAB7FF;
   border-radius:10px;
-  background:#efefef;
+  background:#DAB7FF;
 }
 
 @font-face {
