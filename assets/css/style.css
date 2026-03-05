@@ -22,6 +22,46 @@ ul {
   border-radius:10px;
   background:#261126;
 }
+.box1 {
+  padding:20px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10px;
+  background:#4D000C;
+}
+.box2 {
+  padding:20px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10px;
+  background:#660049;
+}
+.box3 {
+  padding:20px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10px;
+  background:#181B4D;
+}
+.box4 {
+  padding:20px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10px;
+  background:#00354D;
+}
+.box5 {
+  padding:20px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10px;
+  background:#004D00;
+}
 
 @font-face {
   font-family: 'homura-mincho';
