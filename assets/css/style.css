@@ -1,5 +1,5 @@
 .center-content {
-  text-align: center; /* 中央 */
+  text-align: center; 
 }
 
 
@@ -10,7 +10,7 @@
 }
 
 ul {
-  list-style: none; /* ・を消す */
+  list-style: none; 
   padding-left: 0;
 }
 
@@ -163,7 +163,7 @@ iframe {
     border: 2px solid #333;
     margin-left: 2%;
 }
-/* ここから日記ページの調整 */
+
 .diary p {
     line-height: 2.0;
     padding: 25px;
