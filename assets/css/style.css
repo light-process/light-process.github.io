@@ -181,7 +181,7 @@ iframe {
 }
 
 }
-(function() {
+function() {
   const textEl = document.getElementById('scroll');
   const container = textEl.parentElement;
 
