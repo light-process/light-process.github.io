@@ -169,7 +169,7 @@ iframe {
     padding: 25px;
 }
 
-.scroll {
+.marquee {
   width: 900px; 
   height: 40px; 
   margin: 0px auto; 
@@ -182,7 +182,7 @@ iframe {
 
 }
 function() {
-  const textEl = document.getElementById('scroll');
+  const textEl = document.getElementById('marquee');
   const container = textEl.parentElement;
 
   let speed = 1.5; 
