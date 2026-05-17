@@ -194,3 +194,41 @@ iframe {
     transform: translateX(-100%);
   }
 }
+(function() {
+  const textEl = document.getElementById('scroll');
+  const container = textEl.parentElement;
+
+  let speed = 1.5; 
+  let pauseTime = 1500; 
+  let pos = container.offsetWidth; 
+  let direction = -1; 
+  let isPaused = false;
+
+  function step() {
+    if (!isPaused) {
+      pos += direction * speed;
+      textEl.style.transform = `translateX(${pos}px)`;
+
+     
+      if (pos <= -textEl.offsetWidth) {
+        direction = 1; 
+        pause();
+      }
+      
+      else if (pos >= container.offsetWidth) {
+        direction = -1; 
+        pause();
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
+  function pause() {
+    isPaused = true;
+    setTimeout(() => {
+      isPaused = false;
+    }, pauseTime);
+  }
+
+  step();
+})();
