@@ -193,6 +193,3 @@ iframe {
   100% {
     transform: translateX(-100%);
   }
-
-  step();
-})();
