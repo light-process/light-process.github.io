@@ -169,7 +169,7 @@ iframe {
     padding: 25px;
 }
 
-.marquee {
+.scroll {
   width: 900px; 
   height: 40px; 
   margin: 0px auto; 
@@ -180,41 +180,18 @@ iframe {
   white-space: nowrap;   
 }
 
+.scroll h3{
+  display: inline-block;
+  padding-left: 100%;     
+  animation: scroll-text 15s linear infinite; 
+  margin: 0;
 }
-function() {
-  const textEl = document.getElementById('marquee');
-  const container = textEl.parentElement;
-
-  let speed = 1.5; 
-  let pauseTime = 1500; 
-  let pos = container.offsetWidth; 
-  let direction = -1; 
-  let isPaused = false;
-
-  function step() {
-    if (!isPaused) {
-      pos += direction * speed;
-      textEl.style.transform = `translateX(${pos}px)`;
-
-     
-      if (pos <= -textEl.offsetWidth) {
-        direction = 1; 
-        pause();
-      }
-      
-      else if (pos >= container.offsetWidth) {
-        direction = -1; 
-        pause();
-      }
-    }
-    requestAnimationFrame(step);
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0%);
   }
-
-  function pause() {
-    isPaused = true;
-    setTimeout(() => {
-      isPaused = false;
-    }, pauseTime);
+  100% {
+    transform: translateX(-100%);
   }
 
   step();
