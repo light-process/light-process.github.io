@@ -186,3 +186,11 @@ iframe {
   animation: scroll-text 15s linear infinite; 
   margin: 0;
 }
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
