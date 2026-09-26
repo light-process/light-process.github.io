@@ -62,7 +62,15 @@ ul {
   border-radius:10px;
   background:#004D00;
 }
-
+.box-s {
+  padding:20px;
+  margin-bottom:30px;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10px;
+  width: 900px;
+  background:#261126;
+}
 @font-face {
   font-family: 'homura-mincho';
   src: url('../fonts/04HomuraM-Medium.woff2') format('woff2'),
