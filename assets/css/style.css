@@ -62,6 +62,11 @@ ul {
   border-radius:10px;
   background:#004D00;
 }
+.container {
+  display: flex;
+  justify-content: center; /* 水平中央 */
+  width: 100%;
+}
 .box-s {
   justify-content:center;
   padding:20px;
