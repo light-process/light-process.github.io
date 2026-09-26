@@ -64,8 +64,6 @@ ul {
 }
 .container {
   justify-content: center;
-  height: auto;
-  width: 100%;
 }
 .box-s {
   padding:20px;
