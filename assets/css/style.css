@@ -73,6 +73,7 @@ ul {
   margin-bottom:30px;
   border-radius:10px;
   width: 900px;
+  height: auto
   background:#261126;
 }
 @font-face {
