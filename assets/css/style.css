@@ -63,6 +63,7 @@ ul {
   background:#004D00;
 }
 .container-s {
+  display: flex;
   justify-content: center;
 }
 .box-s {
