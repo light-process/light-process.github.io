@@ -69,9 +69,7 @@ ul {
   margin-right:30px;
   border-radius:10px;
   width: 900px;
-  display:flex;
   justify-content:center;
-  align-items:center;
   background:#261126;
 }
 @font-face {
