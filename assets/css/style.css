@@ -64,7 +64,8 @@ ul {
 }
 .container {
   display: flex;
-  justify-content: center; /* 水平中央 */
+  justify-content: center;
+  height: auto;
   width: 100%;
 }
 .box-s {
